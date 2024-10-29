@@ -8,13 +8,6 @@ importers:
 
   .:
     dependencies:
-      postgres:
-        specifier: ^3.4.5
-        version: 3.4.5
-      vite-plugin-mkcert:
-        specifier: ^1.17.6
-        version: 1.17.6(vite@5.4.10)
-    devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.7.3(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.10))(svelte@4.2.19)(vite@5.4.10))
@@ -42,6 +35,9 @@ importers:
       globals:
         specifier: ^15.11.0
         version: 15.11.0
+      postgres:
+        specifier: ^3.4.5
+        version: 3.4.5
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -54,6 +50,9 @@ importers:
       vite:
         specifier: ^5.4.10
         version: 5.4.10
+      vite-plugin-mkcert:
+        specifier: ^1.17.6
+        version: 1.17.6(vite@5.4.10)
 
 packages:
 
